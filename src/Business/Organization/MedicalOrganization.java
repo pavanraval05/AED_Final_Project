@@ -12,8 +12,8 @@ import java.util.ArrayList;
  *
  * @author akhileshkavitkar
  */
-public class medicalOrganization extends Organization{
-    public medicalOrganization() {
+public class MedicalOrganization extends Organization{
+    public MedicalOrganization() {
         super(OrganizationType.MedicalOrganization.getValue());
     }
     
