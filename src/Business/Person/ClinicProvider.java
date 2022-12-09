@@ -8,7 +8,7 @@ package Business.Person;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 //Creating class ClinicProvider that extends Person
 public class ClinicProvider extends Person{
