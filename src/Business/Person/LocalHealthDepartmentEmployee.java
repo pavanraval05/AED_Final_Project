@@ -8,7 +8,7 @@ package Business.Person;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 
 //Creating class EnterpriseAdminPerson that extends Person

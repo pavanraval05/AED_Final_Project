@@ -7,7 +7,7 @@ package Business.Person;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author pavan
  */
 
 //Creating class MedicalO that extends Person

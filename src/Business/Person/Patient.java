@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 
 //Creating class Patient that extends Person
