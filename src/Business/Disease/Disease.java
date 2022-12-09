@@ -4,6 +4,8 @@
  */
 package Business.Disease;
 
+import java.util.Date;
+
 /**
  *
  * @author akhileshkavitkar
