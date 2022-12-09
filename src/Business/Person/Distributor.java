@@ -8,7 +8,7 @@ package Business.Person;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 
 //Creating class Distributor that extends Person
