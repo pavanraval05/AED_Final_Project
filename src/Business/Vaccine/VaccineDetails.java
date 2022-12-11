@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 //Creating class VaccineDetails
 public class VaccineDetails {
