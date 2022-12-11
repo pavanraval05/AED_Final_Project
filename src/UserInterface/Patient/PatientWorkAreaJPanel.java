@@ -57,7 +57,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
-        workContainer.setBackground(new java.awt.Color(51, 255, 102));
+        workContainer.setBackground(new java.awt.Color(0, 204, 0));
 
         jLabel2.setForeground(new java.awt.Color(153, 204, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -82,13 +82,13 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
+        mainMenu.setBackground(new java.awt.Color(0, 204, 0));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Main Menu:");
 
-        btnviewadminvacc.setBackground(new java.awt.Color(255, 102, 0));
+        btnviewadminvacc.setBackground(new java.awt.Color(102, 255, 102));
         btnviewadminvacc.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnviewadminvacc.setForeground(new java.awt.Color(255, 255, 255));
         btnviewadminvacc.setText("View Administered Vaccines");
@@ -100,7 +100,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel6.setBackground(new java.awt.Color(255, 255, 255));
         jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("PATIENT");
 
         javax.swing.GroupLayout mainMenuLayout = new javax.swing.GroupLayout(mainMenu);
