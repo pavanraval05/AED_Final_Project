@@ -146,7 +146,7 @@ public class ViewDetailsOfOrderJPanel extends javax.swing.JPanel {
         tblvaccorder.getTableHeader().setReorderingAllowed(false);
         jScrollPane2.setViewportView(tblvaccorder);
 
-        btnapprove.setBackground(new java.awt.Color(102, 255, 102));
+        btnapprove.setBackground(new java.awt.Color(255, 51, 0));
         btnapprove.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnapprove.setForeground(new java.awt.Color(255, 255, 255));
         btnapprove.setText("Approve Order");
