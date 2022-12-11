@@ -84,11 +84,12 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         mainMenu.setBackground(new java.awt.Color(51, 255, 120));
 
-        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 1, 14)); // NOI18N
         jLabel3.setText("Main Menu:");
 
-        btnviewadminvacc.setBackground(new java.awt.Color(102, 255, 102));
-        btnviewadminvacc.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnviewadminvacc.setBackground(new java.awt.Color(0, 0, 153));
+        btnviewadminvacc.setFont(new java.awt.Font("Bitstream Charter", 1, 14)); // NOI18N
+        btnviewadminvacc.setForeground(new java.awt.Color(255, 255, 255));
         btnviewadminvacc.setText("View Administered Vaccines");
         btnviewadminvacc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,15 +108,16 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(mainMenuLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnviewadminvacc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnviewadminvacc, javax.swing.GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)
                     .addGroup(mainMenuLayout.createSequentialGroup()
-                        .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addGroup(mainMenuLayout.createSequentialGroup()
-                                .addGap(74, 74, 74)
-                                .addComponent(jLabel6)))
+                        .addGap(74, 74, 74)
+                        .addComponent(jLabel6)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(mainMenuLayout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         mainMenuLayout.setVerticalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -126,7 +128,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(jLabel3)
                 .addGap(18, 18, 18)
                 .addComponent(btnviewadminvacc)
-                .addContainerGap(430, Short.MAX_VALUE))
+                .addContainerGap(428, Short.MAX_VALUE))
         );
 
         jSplitPane1.setTopComponent(mainMenu);
