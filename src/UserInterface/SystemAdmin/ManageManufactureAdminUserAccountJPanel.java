@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author samruddhamohire
  */
 public class ManageManufactureAdminUserAccountJPanel extends javax.swing.JPanel {
 
@@ -234,7 +234,6 @@ public class ManageManufactureAdminUserAccountJPanel extends javax.swing.JPanel 
         setBackground(new java.awt.Color(102, 153, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Manufacturer Admin");
 
@@ -242,7 +241,6 @@ public class ManageManufactureAdminUserAccountJPanel extends javax.swing.JPanel 
         lbmanu.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("List of Admins:");
 
         tblmanudetail.setModel(new javax.swing.table.DefaultTableModel(
@@ -280,19 +278,15 @@ public class ManageManufactureAdminUserAccountJPanel extends javax.swing.JPanel 
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("First Name:");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Last Name:");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("UserName:");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Password:");
 
         btncreate.setBackground(new java.awt.Color(0, 0, 102));

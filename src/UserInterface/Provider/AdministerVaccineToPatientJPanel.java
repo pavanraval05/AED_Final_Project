@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author samruddhamohire
  */
 public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
 
@@ -203,25 +203,21 @@ public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
         cbArm = new javax.swing.JComboBox();
         cbstatus = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Administer Vaccine");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel2.setText("Patient: ");
 
         txtpname.setEnabled(false);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Vaccine Details:");
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel5.setText("Vaccine Code:");
 
         cbvacccdlist.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -233,18 +229,15 @@ public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel6.setText("Dose Number:");
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel7.setText("Manufacture Date:");
 
         txtmanudate.setEnabled(false);
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel9.setText("Batch Number :");
 
         cbbatchnum.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -256,16 +249,13 @@ public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel11.setText("Arm");
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel12.setText("Injection Status:");
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel13.setText("Given By:");
 
         txtdoc.setEnabled(false);
@@ -280,8 +270,7 @@ public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel14.setText("Brand:");
 
         cbvaccbrand.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -380,7 +369,7 @@ public class AdministerVaccineToPatientJPanel extends javax.swing.JPanel {
                                     .addComponent(cbArm, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(txtdoc)
                                     .addComponent(cbstatus, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                        .addGap(0, 103, Short.MAX_VALUE)))
+                        .addGap(0, 105, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(

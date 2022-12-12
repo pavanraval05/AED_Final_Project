@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akash
+ * @author akhileshkavitkar
  */
 public class ManageProviderOrdersJPanel extends javax.swing.JPanel {
 
@@ -158,10 +158,9 @@ public class ManageProviderOrdersJPanel extends javax.swing.JPanel {
         btn3 = new javax.swing.JButton();
         btn4 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Manage Provider Orders");
 
@@ -197,7 +196,6 @@ public class ManageProviderOrdersJPanel extends javax.swing.JPanel {
         });
 
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Orders type:");
 
         btn2.setBackground(new java.awt.Color(0, 0, 102));
@@ -231,7 +229,6 @@ public class ManageProviderOrdersJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblnormal);
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("AsRequired Orders:");
 
         btn3.setBackground(new java.awt.Color(0, 0, 102));

@@ -11,7 +11,7 @@ import Business.Organization.OrganizationDirectory;
 
 /**
  *
- * @author samruddha
+ * @author samruddhamohire
  */
 
 //Initializing abstract class  Enterprise extends Organization

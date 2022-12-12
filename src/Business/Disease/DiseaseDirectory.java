@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author samruddha
+ * @author pavan
  */
 
 //Calling DiseaseDirectory Class

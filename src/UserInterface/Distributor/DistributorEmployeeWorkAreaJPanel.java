@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akash
+ * @author samruddhamohire
  */
 public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -67,7 +67,7 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         workContainer.setBackground(new java.awt.Color(102, 153, 255));
         workContainer.setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/001.gif"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -93,10 +93,9 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
+        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setText("Main Menu:");
 
         btn1.setBackground(new java.awt.Color(0, 0, 102));
@@ -133,7 +132,6 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         lbl2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("DISTRIBUTOR");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/distributor2_150x150.jpg"))); // NOI18N

@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author pavan
  */
 public class ViewDetailsOfClinicOrderJPanel extends javax.swing.JPanel {
 
@@ -111,26 +111,22 @@ public class ViewDetailsOfClinicOrderJPanel extends javax.swing.JPanel {
         btnbvack = new javax.swing.JButton();
         btnsubmit = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("View Details of Placed Order by Clinic");
 
         txtdetails.setEnabled(false);
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel3.setText("Order Details:");
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel5.setText("Total Cost of the Order:");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel2.setText("Order Number:");
 
         txttamt.setEnabled(false);
@@ -156,8 +152,7 @@ public class ViewDetailsOfClinicOrderJPanel extends javax.swing.JPanel {
         tblorderdetail.getTableHeader().setReorderingAllowed(false);
         jScrollPane2.setViewportView(tblorderdetail);
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel6.setText("Order");
 
         btnbvack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (1).png"))); // NOI18N

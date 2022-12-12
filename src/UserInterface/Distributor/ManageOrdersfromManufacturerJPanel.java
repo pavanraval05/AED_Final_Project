@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akash
+ * @author akhileshkavitkar
  */
 public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
 
@@ -81,10 +81,9 @@ public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
         btn2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Manage Orders from Manufacturers");
 

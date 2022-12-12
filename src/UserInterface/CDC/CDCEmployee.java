@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 public class CDCEmployee extends javax.swing.JPanel {
 

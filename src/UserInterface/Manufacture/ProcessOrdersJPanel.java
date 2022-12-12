@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author akhileshkavitkar
  */
 public class ProcessOrdersJPanel extends javax.swing.JPanel {
 
@@ -93,15 +93,13 @@ public class ProcessOrdersJPanel extends javax.swing.JPanel {
         btnback = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Process Orders");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Details:");
 
         tbldetails.setModel(new javax.swing.table.DefaultTableModel(
@@ -128,13 +126,11 @@ public class ProcessOrdersJPanel extends javax.swing.JPanel {
         }
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Order Number:");
 
         txtornum.setEnabled(false);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Total Amount of Order: ");
 
         txtamt.setEnabled(false);

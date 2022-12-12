@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author pavan
+ * @author samruddhamohire
  */
 
 //INitializing our HospitalOrganization that extends our Organization Entity

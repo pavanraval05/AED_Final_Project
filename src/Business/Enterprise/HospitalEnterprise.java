@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author samruddha
+ * @author samruddhamohire
  */
 
 //Initializing  class  HospitalEnterprise extends Organization

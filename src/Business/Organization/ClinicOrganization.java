@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author samruddha
+ * @author samruddhamohire
  */
 //INitializing our ClinicOrganization that extends our Organization Entity
 public class ClinicOrganization extends Organization{

@@ -10,7 +10,7 @@ import Business.WorkQueue.WorkQueue;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author samruddhamohire
  */
 //Initializing Useraccount class with specific variables and Workqueue request
 public class UserAccount {
