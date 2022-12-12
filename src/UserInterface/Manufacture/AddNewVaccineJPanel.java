@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author akhileshkavitkar
  */
 public class AddNewVaccineJPanel extends javax.swing.JPanel {
 
@@ -86,38 +86,32 @@ public class AddNewVaccineJPanel extends javax.swing.JPanel {
         jLabel13 = new javax.swing.JLabel();
         cbdeptlist = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Add New Vaccine");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel2.setText("Vaccine Name:");
 
         cbvacclist.setForeground(new java.awt.Color(0, 0, 102));
         cbvacclist.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel3.setText("Lot Number:");
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel4.setText("Price:");
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel9.setText("Quantity:");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Vials");
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel11.setText("Manufacture Date:");
 
         btnaddvacc.setBackground(new java.awt.Color(0, 0, 102));
@@ -137,8 +131,7 @@ public class AddNewVaccineJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Bitstream Charter", 0, 14)); // NOI18N
         jLabel13.setText("Department:");
 
         cbdeptlist.setForeground(new java.awt.Color(0, 0, 102));
@@ -186,7 +179,7 @@ public class AddNewVaccineJPanel extends javax.swing.JPanel {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(jLabel10))
                                     .addComponent(dcmanudate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                        .addGap(0, 241, Short.MAX_VALUE)))
+                        .addGap(0, 243, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author samruddha
+ * @author samruddhamohire
  */
 //INitializing our DistributorOrganization that extends our Organization Entity
 public class DistributorOrganization extends Organization{

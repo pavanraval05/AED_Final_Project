@@ -30,7 +30,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akash
+ * @author akhileshkavitkar
  */
 public class ViewAsRequestedDetailsAndShipJPanel extends javax.swing.JPanel {
 
@@ -124,10 +124,9 @@ public class ViewAsRequestedDetailsAndShipJPanel extends javax.swing.JPanel {
         lbl5 = new javax.swing.JLabel();
         btn3 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("View order and ship");
 
@@ -166,7 +165,6 @@ public class ViewAsRequestedDetailsAndShipJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblorder);
 
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Order Particulars:");
 
         tblinven.setModel(new javax.swing.table.DefaultTableModel(
@@ -189,7 +187,6 @@ public class ViewAsRequestedDetailsAndShipJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblinven);
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("Inventory Check:");
 
         btn2.setBackground(new java.awt.Color(0, 0, 102));
@@ -204,11 +201,9 @@ public class ViewAsRequestedDetailsAndShipJPanel extends javax.swing.JPanel {
         });
 
         lbl4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl4.setForeground(new java.awt.Color(255, 255, 255));
         lbl4.setText("Total Cost of the Order:");
 
         lbl5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl5.setForeground(new java.awt.Color(255, 255, 255));
         lbl5.setText("Order Number:");
 
         btn3.setBackground(new java.awt.Color(0, 0, 102));

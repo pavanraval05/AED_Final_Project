@@ -11,7 +11,7 @@ import Business.Network.StateNetwork;
 
 /**
  *
- * @author akash
+ * @author samruddhamohire
  */
 
 //Creating CLass Vaccine

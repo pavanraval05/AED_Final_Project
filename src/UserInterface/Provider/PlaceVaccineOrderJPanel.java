@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author samruddhamohire
  */
 public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
 
@@ -222,16 +222,14 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         jLabel10 = new javax.swing.JLabel();
         cbordertype = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Create Vaccine Order");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Manufacturer:");
 
         cbmaulist.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -242,11 +240,9 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         });
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Manufacturer Vaccine Catalog:");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Vaccine Code:");
 
         btnsrch.setBackground(new java.awt.Color(0, 0, 102));
@@ -278,7 +274,6 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblmanu);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Cart:");
 
         tblcart.setModel(new javax.swing.table.DefaultTableModel(
@@ -300,7 +295,6 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblcart);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Quantity:");
 
         btnaddcart.setBackground(new java.awt.Color(0, 0, 102));
@@ -323,7 +317,6 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         });
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Quantity:");
 
         btnremove.setBackground(new java.awt.Color(0, 0, 102));
@@ -347,13 +340,11 @@ public class PlaceVaccineOrderJPanel extends javax.swing.JPanel {
         });
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Total Amount of Order:");
 
         txtamt.setEnabled(false);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Set Contract: ");
 
         cbordertype.setForeground(new java.awt.Color(0, 0, 102));

@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akash
+ * @author akhileshkavitkar
  */
 public class ViewInventoryJPanel extends javax.swing.JPanel {
 
@@ -75,21 +75,18 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
         jSeparator1 = new javax.swing.JSeparator();
         btn1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("View Inventory");
 
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Warehouse ID:");
 
         txt1.setEnabled(false);
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("Location:");
 
         txt2.setEnabled(false);

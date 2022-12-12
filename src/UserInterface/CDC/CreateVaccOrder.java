@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akash
+ * @author pavan
  */
 public class CreateVaccOrder extends javax.swing.JPanel {
 

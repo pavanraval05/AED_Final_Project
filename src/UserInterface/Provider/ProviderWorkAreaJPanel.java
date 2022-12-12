@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author pavan
  */
 
      
@@ -77,7 +77,7 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
         workContainer.setBackground(new java.awt.Color(102, 153, 255));
         workContainer.setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/delivery.gif"))); // NOI18N
 
@@ -102,10 +102,9 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
+        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Main Menu:");
 
         btnvaccorder.setBackground(new java.awt.Color(0, 0, 102));
@@ -169,7 +168,6 @@ public class ProviderWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("PROVIDER");
 
         javax.swing.GroupLayout mainMenuLayout = new javax.swing.GroupLayout(mainMenu);

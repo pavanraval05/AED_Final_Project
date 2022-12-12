@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author pavan
+ * @author samruddhamohire
  */
 
 //INitializing our LHDImmuneOrganization that extends our Organization Entity

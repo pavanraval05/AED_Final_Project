@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author akhileshkavitkar
  */
 public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -65,7 +65,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
+        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));

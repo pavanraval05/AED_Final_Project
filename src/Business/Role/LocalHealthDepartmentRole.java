@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhilesh
+ * @author samruddhamohire
  */
 
 //Initializing class LocalHealthDepartmentRole that extends Role

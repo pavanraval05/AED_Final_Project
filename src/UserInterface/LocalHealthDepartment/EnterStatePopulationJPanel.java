@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author DELL
+ * @author samruddhamohire
  */
 public class EnterStatePopulationJPanel extends javax.swing.JPanel {
 
@@ -46,10 +46,9 @@ public class EnterStatePopulationJPanel extends javax.swing.JPanel {
         btndone = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("State Population");
 

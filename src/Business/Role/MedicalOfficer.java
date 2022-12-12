@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhilesh
+ * @author akhileshkavitkar
  */
 
 

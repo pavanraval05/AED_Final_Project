@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author samruddha
+ * @author samruddhamohire
  */
 
 //Initializing class CDCEmployeeRole that extends Role

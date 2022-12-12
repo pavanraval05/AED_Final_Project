@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author samruddhamohire
  */
 public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
 
@@ -66,13 +66,12 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
         cbdislist = new javax.swing.JComboBox();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
         dcludate.setDateFormatString(" MMM, d yyyy");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Last Updated on:");
 
         btnaddvacc.setBackground(new java.awt.Color(0, 0, 102));
@@ -86,16 +85,13 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Add New Vaccine");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Vaccine Code:");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Vaccine Name:");
 
         btnback.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (1).png"))); // NOI18N
@@ -106,7 +102,6 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
         });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Disease:");
 
         cbdislist.setForeground(new java.awt.Color(0, 0, 102));

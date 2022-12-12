@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author akhileshkavitkar
  */
 public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -83,7 +83,7 @@ public class ManufactureEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
+        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
 
         btnmanvaccprod.setBackground(new java.awt.Color(0, 0, 102));
         btnmanvaccprod.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N

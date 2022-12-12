@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vinithiteshharsora
+ * @author akhileshkavitkar
  */
 public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
 
@@ -91,11 +91,10 @@ public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
         btnref = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(51, 255, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Administered Vaccine List");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 996, -1));
@@ -122,7 +121,6 @@ public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 950, 154));
 
         btnref.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        btnref.setForeground(new java.awt.Color(255, 255, 255));
         btnref.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (2).png"))); // NOI18N
         btnref.setText("Refresh");
         btnref.addActionListener(new java.awt.event.ActionListener() {

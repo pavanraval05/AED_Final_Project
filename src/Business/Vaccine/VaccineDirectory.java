@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author akash
+ * @author samruddhamohire
  */
 
 //Crating class VaccineDirectory

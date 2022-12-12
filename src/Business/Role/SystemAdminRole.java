@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhilesh
+ * @author akhileshkavitkar
  */
 ////Initializing class ProviderRole that extends Role
 
