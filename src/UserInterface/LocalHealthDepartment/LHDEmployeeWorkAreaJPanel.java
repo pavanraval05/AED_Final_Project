@@ -116,7 +116,7 @@ public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setTopComponent(jPanel1);
 
-        workContainer.setBackground(new java.awt.Color(102, 153, 255));
+        workContainer.setBackground(new java.awt.Color(51, 255, 102));
         workContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(workContainer);
 

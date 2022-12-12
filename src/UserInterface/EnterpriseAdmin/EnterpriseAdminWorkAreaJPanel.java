@@ -58,7 +58,7 @@ public class EnterpriseAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
-        jSplitPane1.setDividerLocation(170);
+        jSplitPane1.setDividerLocation(200);
 
         mainMenuContainer.setBackground(new java.awt.Color(51, 255, 102));
 

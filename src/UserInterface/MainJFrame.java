@@ -55,13 +55,13 @@ public class MainJFrame extends javax.swing.JFrame {
         container = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(102, 700));
-        setResizable(false);
 
         jSplitPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jSplitPane1.setDividerLocation(50);
@@ -156,22 +156,25 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel3.setBackground(new java.awt.Color(102, 153, 255));
         jLabel3.setFont(new java.awt.Font("Bitstream Charter", 3, 36)); // NOI18N
         jLabel3.setText("Vaccine Management System");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 550, 70));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 550, 70));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("/home/pavan/Downloads/vaccineeee.jpg")); // NOI18N
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 1000, 570));
 
         jLabel4.setBackground(new java.awt.Color(102, 153, 255));
         jLabel4.setFont(new java.awt.Font("Bitstream Charter", 1, 24)); // NOI18N
         jLabel4.setText("PAVAN RAVAL");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 140, 280, 70));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 690, 280, 70));
 
         jLabel5.setBackground(new java.awt.Color(102, 153, 255));
         jLabel5.setFont(new java.awt.Font("Bitstream Charter", 1, 24)); // NOI18N
         jLabel5.setText("SAMRUDDHA MOHIRE");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 230, 290, 70));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 690, 290, 70));
 
         jLabel6.setBackground(new java.awt.Color(102, 153, 255));
         jLabel6.setFont(new java.awt.Font("Bitstream Charter", 1, 24)); // NOI18N
         jLabel6.setText("AKHILESH KAVITKAR");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, 280, 70));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 690, 280, 70));
 
         container.add(jPanel2, "card2");
 
@@ -189,7 +192,7 @@ public class MainJFrame extends javax.swing.JFrame {
         txtpassword.setText(null);
         
         JPanel blankJP = new JPanel();
-        blankJP.setBackground(new java.awt.Color(102, 153, 255));
+        blankJP.setBackground(new java.awt.Color(51, 255, 102));
         container.add("blank", blankJP);
         CardLayout crdLyt = (CardLayout) container.getLayout();
         crdLyt.next(container);
@@ -404,6 +407,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnlogin;
     private javax.swing.JButton btnlogout;
     private javax.swing.JPanel container;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
