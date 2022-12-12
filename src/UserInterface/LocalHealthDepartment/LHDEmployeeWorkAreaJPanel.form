@@ -134,7 +134,7 @@
         <Container class="javax.swing.JPanel" name="workContainer">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="66" type="rgb"/>
+              <Color blue="66" green="ff" red="33" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
