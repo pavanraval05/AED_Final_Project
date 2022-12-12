@@ -10,7 +10,7 @@ import Business.Vaccine.VaccineProductCatalog;
 
 /**
  *
- * @author pavan
+ * @author akash
  */
 
 //Creating class ManufacturerEmployee that extends Person

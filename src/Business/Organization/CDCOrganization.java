@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author pavan
+ * @author samruddha
  */
 
 //INitializing our CDCOrganization that extends our Organization Entity

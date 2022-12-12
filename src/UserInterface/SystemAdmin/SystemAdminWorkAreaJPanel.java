@@ -64,7 +64,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         workContainer.setBackground(new java.awt.Color(102, 153, 255));
         workContainer.setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(51, 255, 102));
+        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/sysadmin.jpg"))); // NOI18N
 
@@ -89,7 +89,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenuContainer.setBackground(new java.awt.Color(51, 255, 102));
+        mainMenuContainer.setBackground(new java.awt.Color(102, 153, 255));
 
         btnmanstate.setBackground(new java.awt.Color(0, 0, 102));
         btnmanstate.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -161,7 +161,8 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("SYSTEM ADMIN");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/sysmiddle_150x150.jpg"))); // NOI18N

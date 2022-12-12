@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author vinithiteshharsora
  */
 public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
 
@@ -89,15 +89,16 @@ public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblvaccl = new javax.swing.JTable();
         btnref = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Administered Vaccine List");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 996, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 996, -1));
 
         tblvaccl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -118,17 +119,21 @@ public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
         tblvaccl.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(tblvaccl);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 950, 270));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 950, 154));
 
         btnref.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnref.setForeground(new java.awt.Color(255, 255, 255));
+        btnref.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (2).png"))); // NOI18N
         btnref.setText("Refresh");
         btnref.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnrefActionPerformed(evt);
             }
         });
-        add(btnref, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 20, -1, -1));
+        add(btnref, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/vacclist_900x500.jpg"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnrefActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnrefActionPerformed
@@ -140,6 +145,7 @@ public class PatientAdministeredVaccineListJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnref;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblvaccl;
     // End of variables declaration//GEN-END:variables

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author pavan
+ * @author samruddha
  */
 
 //Initializing Enterprise Directory class

@@ -1,16 +1,18 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Business.UserAccount;
 
 import Business.Person.Person;
 import Business.Role.Role;
 import Business.WorkQueue.WorkQueue;
+
 /**
  *
- * @author akhileshkavitkar
+ * @author vinithiteshharsora
  */
+//Initializing Useraccount class with specific variables and Workqueue request
 public class UserAccount {
     
     private String uname;

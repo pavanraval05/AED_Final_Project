@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author DELL
  */
 public class OrderApprovalsJPanel extends javax.swing.JPanel {
 
@@ -95,10 +95,10 @@ public class OrderApprovalsJPanel extends javax.swing.JPanel {
         btnview = new javax.swing.JButton();
         btnref = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Approve Orders from Providers");
 
@@ -121,7 +121,7 @@ public class OrderApprovalsJPanel extends javax.swing.JPanel {
         tblorder.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(tblorder);
 
-        btnview.setBackground(new java.awt.Color(255, 0, 0));
+        btnview.setBackground(new java.awt.Color(0, 0, 102));
         btnview.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnview.setForeground(new java.awt.Color(255, 255, 255));
         btnview.setText("View Details and Approve >>");
@@ -131,11 +131,10 @@ public class OrderApprovalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnref.setBackground(new java.awt.Color(102, 102, 102));
         btnref.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnref.setForeground(new java.awt.Color(255, 255, 255));
+        btnref.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (2).png"))); // NOI18N
         btnref.setText("Refresh");
-        btnref.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnref.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnrefActionPerformed(evt);
@@ -151,11 +150,12 @@ public class OrderApprovalsJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 664, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btnref)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnref, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnview, javax.swing.GroupLayout.Alignment.TRAILING))))
+                        .addComponent(btnview)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -163,13 +163,13 @@ public class OrderApprovalsJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnref, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(1, 1, 1)
+                .addComponent(btnref)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnview)
-                .addContainerGap(192, Short.MAX_VALUE))
+                .addContainerGap(196, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

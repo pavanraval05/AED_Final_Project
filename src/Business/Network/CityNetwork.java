@@ -1,7 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
+
 package Business.Network;
 
 import Business.Enterprise.Enterprise;
@@ -9,10 +11,12 @@ import Business.Enterprise.EnterpriseDirectory;
 import Business.Enterprise.HospitalEnterprise;
 import Business.Organization.HospitalOrganization;
 import Business.Organization.Organization;
+
 /**
  *
- * @author samruddhamohire
+ * @author pavan
  */
+//Initializing class CityNetwork for fetching City Name
 public class CityNetwork {
     
     private EnterpriseDirectory enterpriseDirectory;
@@ -126,5 +130,6 @@ public class CityNetwork {
     return sum;
     
 }
+    
     
 }

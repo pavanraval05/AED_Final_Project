@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author akash
  */
 public class ViewInventoryJPanel extends javax.swing.JPanel {
 
@@ -75,21 +75,21 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
         jSeparator1 = new javax.swing.JSeparator();
         btn1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
-        lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(0, 0, 0));
+        lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("View Inventory");
 
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(0, 0, 0));
+        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Warehouse ID:");
 
         txt1.setEnabled(false);
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(0, 0, 0));
+        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("Location:");
 
         txt2.setEnabled(false);
@@ -113,9 +113,9 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
         tblinven.getTableHeader().setReorderingAllowed(false);
         jScrollPane2.setViewportView(tblinven);
 
+        btn1.setBackground(new java.awt.Color(0, 0, 102));
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (1).png"))); // NOI18N
-        btn1.setText("Back");
         btn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,8 +165,8 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(112, Short.MAX_VALUE))
+                .addComponent(btn1)
+                .addContainerGap(131, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

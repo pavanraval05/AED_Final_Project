@@ -11,7 +11,8 @@ import java.nio.file.Paths;
 
 /**
  *
- * @author samruddhamohire
+ * @author rrheg
+ * @author Lingfeng
  */
 public class DB4OUtil {
 
@@ -31,13 +32,7 @@ public class DB4OUtil {
             conn.close();
         }
     }
-    
-     public synchronized void storeSystem(EcoSystem system) {
-        ObjectContainer conn = createConnection();
-        conn.store(system);
-        conn.commit();
-        conn.close();
-    }
+
     
     public EcoSystem retrieveSystem(){
         ObjectContainer conn = createConnection();
@@ -53,7 +48,13 @@ public class DB4OUtil {
         return system;
     }
 
-    private ObjectContainer createConnection() {
+    public synchronized void storeSystem(EcoSystem system) {
+        ObjectContainer conn = createConnection();
+        conn.store(system);
+        conn.commit();
+        conn.close();
+    }
+   private ObjectContainer createConnection() {
         try {
 
             EmbeddedConfiguration config = Db4oEmbedded.newConfiguration();
@@ -72,7 +73,6 @@ public class DB4OUtil {
             System.out.print(ex.getMessage());
         }
         return null;
-    }
-
-   
+    } 
+    
 }
