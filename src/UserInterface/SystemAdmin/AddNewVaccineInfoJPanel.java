@@ -63,6 +63,7 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
         btnback = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         cbdislist = new javax.swing.JComboBox();
+        dcludate = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(51, 255, 102));
         setForeground(new java.awt.Color(255, 255, 255));
@@ -129,7 +130,11 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btnaddvacc, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(btnaddvacc, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(dcludate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(6, 6, 6))))
                             .addComponent(btnback))
                         .addGap(0, 638, Short.MAX_VALUE)))
                 .addContainerGap())
@@ -152,8 +157,10 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
                     .addComponent(jLabel3)
                     .addComponent(txtvaccname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(56, 56, 56)
-                .addComponent(jLabel5)
-                .addGap(22, 22, 22)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel5)
+                    .addComponent(dcludate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
                 .addComponent(btnaddvacc)
                 .addGap(18, 18, 18)
                 .addComponent(btnback)
@@ -211,6 +218,7 @@ public class AddNewVaccineInfoJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnaddvacc;
     private javax.swing.JButton btnback;
     private javax.swing.JComboBox cbdislist;
+    private com.toedter.calendar.JDateChooser dcludate;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
