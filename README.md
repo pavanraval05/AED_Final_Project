@@ -1,10 +1,11 @@
 # ✨Vaccine Management System✨
------------x--------------/
 
-Akhilesh Kavitkar	002747111/
-Pavan Raval		002762658/
-Samruddha Mohire	002776884/
------------x---------------/
+<br>
+## Akhilesh Kavitkar	002747111
+## Pavan Raval		002762658
+## Samruddha Mohire	002776884
+<br>
+
 ![Screenshot from 2022-12-11 23-20-37](https://user-images.githubusercontent.com/75246161/206961207-0375f387-5ef3-4d49-bbc6-198ef002d245.png)
 ![Screenshot from 2022-12-11 23-20-56](https://user-images.githubusercontent.com/75246161/206961222-5e8e4b9f-9f21-4321-88f4-904e562ba9d5.png)
 
