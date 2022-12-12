@@ -48,7 +48,7 @@ public class CDCEmployee extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
-        jSplitPane1.setBackground(new java.awt.Color(102, 153, 255));
+        jSplitPane1.setBackground(new java.awt.Color(204, 204, 204));
         jSplitPane1.setDividerLocation(170);
 
         mainMenu.setBackground(new java.awt.Color(51, 255, 102));
@@ -86,15 +86,15 @@ public class CDCEmployee extends javax.swing.JPanel {
         mainMenuLayout.setHorizontalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuLayout.createSequentialGroup()
-                .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(mainMenuLayout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addComponent(lbl1))
                     .addGroup(mainMenuLayout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btn2)
-                    .addComponent(btn1))
+                    .addComponent(btn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         mainMenuLayout.setVerticalGroup(
