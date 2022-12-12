@@ -99,11 +99,11 @@ public class ManageCityJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(51, 255, 102));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage City");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel2.setText("State: ");
 
         cbstatelist.setForeground(new java.awt.Color(0, 0, 102));
@@ -136,7 +136,7 @@ public class ManageCityJPanel extends javax.swing.JPanel {
             tbcityname.getColumnModel().getColumn(0).setResizable(false);
         }
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel4.setText("City Name:");
 
         btnaddcity.setBackground(new java.awt.Color(0, 0, 102));
