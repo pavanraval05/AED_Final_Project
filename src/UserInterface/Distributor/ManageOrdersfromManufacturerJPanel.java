@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author akash
  */
 public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
 
@@ -81,16 +81,14 @@ public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
         btn2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
-        lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(0, 0, 0));
+        lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Manage Orders from Manufacturers");
 
-        lbl2.setBackground(new java.awt.Color(0, 0, 0));
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(0, 0, 0));
         lbl2.setText("Received Shipments:");
 
         tblmanorder.setModel(new javax.swing.table.DefaultTableModel(
@@ -112,7 +110,7 @@ public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
         tblmanorder.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(tblmanorder);
 
-        btn1.setBackground(new java.awt.Color(255, 51, 0));
+        btn1.setBackground(new java.awt.Color(0, 0, 102));
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("Store Vaccines");
@@ -123,7 +121,7 @@ public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
             }
         });
 
-        btn2.setBackground(new java.awt.Color(102, 102, 102));
+        btn2.setBackground(new java.awt.Color(0, 0, 102));
         btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (2).png"))); // NOI18N
@@ -149,7 +147,7 @@ public class ManageOrdersfromManufacturerJPanel extends javax.swing.JPanel {
                         .addComponent(lbl2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btn2))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 713, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 675, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(btn1)))

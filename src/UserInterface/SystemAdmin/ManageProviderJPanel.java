@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author samruddhamohire
+ * @author vinithiteshharsora
  */
 public class ManageProviderJPanel extends javax.swing.JPanel {
 
@@ -100,7 +100,7 @@ public class ManageProviderJPanel extends javax.swing.JPanel {
         btnback = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));

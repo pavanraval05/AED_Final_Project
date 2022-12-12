@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Business;
 
@@ -14,10 +14,15 @@ import Business.Role.Role;
 import Business.Role.SystemAdminRole;
 import Business.Vaccine.VaccineDirectory;
 import java.util.ArrayList;
+
+
+
 /**
  *
- * @author samruddhamohire
+ * @author samruddha
  */
+
+//Definig Ecosystem Class
 public class EcoSystem extends Organization{
     
     private static EcoSystem business;
@@ -104,6 +109,3 @@ public class EcoSystem extends Organization{
 
    
 }
-    
-    
-

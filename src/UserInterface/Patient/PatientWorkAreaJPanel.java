@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author vinithiteshharsora
  */
 public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -57,38 +57,22 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
-        workContainer.setBackground(new java.awt.Color(51, 255, 120));
+        workContainer.setBackground(new java.awt.Color(102, 153, 255));
+        workContainer.setLayout(new java.awt.CardLayout());
 
-        jLabel2.setForeground(new java.awt.Color(153, 204, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/prmo_vaccinationcovid19.jpg"))); // NOI18N
-
-        javax.swing.GroupLayout workContainerLayout = new javax.swing.GroupLayout(workContainer);
-        workContainer.setLayout(workContainerLayout);
-        workContainerLayout.setHorizontalGroup(
-            workContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, workContainerLayout.createSequentialGroup()
-                .addContainerGap(49, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 716, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47))
-        );
-        workContainerLayout.setVerticalGroup(
-            workContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(workContainerLayout.createSequentialGroup()
-                .addGap(77, 77, 77)
-                .addComponent(jLabel2)
-                .addContainerGap(77, Short.MAX_VALUE))
-        );
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/patient.gif"))); // NOI18N
+        workContainer.add(jLabel2, "card2");
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(51, 255, 120));
+        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
 
-        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Main Menu:");
 
-        btnviewadminvacc.setBackground(new java.awt.Color(0, 0, 153));
-        btnviewadminvacc.setFont(new java.awt.Font("Bitstream Charter", 1, 14)); // NOI18N
+        btnviewadminvacc.setBackground(new java.awt.Color(0, 0, 102));
+        btnviewadminvacc.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnviewadminvacc.setForeground(new java.awt.Color(255, 255, 255));
         btnviewadminvacc.setText("View Administered Vaccines");
         btnviewadminvacc.addActionListener(new java.awt.event.ActionListener() {
@@ -97,8 +81,8 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("PATIENT");
 
         javax.swing.GroupLayout mainMenuLayout = new javax.swing.GroupLayout(mainMenu);
@@ -108,16 +92,15 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(mainMenuLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnviewadminvacc, javax.swing.GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)
+                    .addComponent(btnviewadminvacc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(mainMenuLayout.createSequentialGroup()
-                        .addGap(74, 74, 74)
-                        .addComponent(jLabel6)
+                        .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addGroup(mainMenuLayout.createSequentialGroup()
+                                .addGap(74, 74, 74)
+                                .addComponent(jLabel6)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(mainMenuLayout.createSequentialGroup()
-                .addGap(43, 43, 43)
-                .addComponent(jLabel3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         mainMenuLayout.setVerticalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -128,7 +111,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(jLabel3)
                 .addGap(18, 18, 18)
                 .addComponent(btnviewadminvacc)
-                .addContainerGap(428, Short.MAX_VALUE))
+                .addContainerGap(416, Short.MAX_VALUE))
         );
 
         jSplitPane1.setTopComponent(mainMenu);

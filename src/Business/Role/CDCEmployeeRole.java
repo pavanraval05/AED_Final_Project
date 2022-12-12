@@ -1,8 +1,11 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
+
 package Business.Role;
+
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.NationalEnterprise.CDC;
@@ -12,10 +15,14 @@ import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import UserInterface.CDC.CDCEmployee;
 import javax.swing.JPanel;
+
 /**
  *
- * @author samruddhamohire
+ * @author samruddha
  */
+
+//Initializing class CDCEmployeeRole that extends Role
+
 public class CDCEmployeeRole extends Role{
 
     @Override

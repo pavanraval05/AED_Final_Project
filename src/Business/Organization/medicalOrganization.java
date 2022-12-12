@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Business.Organization;
 
@@ -8,12 +9,15 @@ import Business.Role.MedicalOfficer;
 import Business.Role.PatientRole;
 import Business.Role.Role;
 import java.util.ArrayList;
+
 /**
  *
- * @author akhileshkavitkar
+ * @author pavan
  */
-public class MedicalOrganization extends Organization{
-    public MedicalOrganization() {
+
+//INitializing our medicalOrganization that extends our Organization Entity
+public class medicalOrganization extends Organization{
+    public medicalOrganization() {
         super(OrganizationType.MedicalOrganization.getValue());
     }
     

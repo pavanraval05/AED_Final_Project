@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author akash
  */
 public class ManageWarehouseJPanel extends javax.swing.JPanel {
 
@@ -86,10 +86,10 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
         btn2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
-        lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(0, 0, 0));
+        lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Manage Warehouses");
 
@@ -105,14 +105,14 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblware);
 
         lbl2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(0, 0, 0));
+        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Add New Warehouse:");
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(0, 0, 0));
+        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("Location:");
 
-        btn1.setBackground(new java.awt.Color(255, 51, 0));
+        btn1.setBackground(new java.awt.Color(0, 0, 102));
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("Add Warehouse");
@@ -123,7 +123,7 @@ public class ManageWarehouseJPanel extends javax.swing.JPanel {
             }
         });
 
-        btn2.setBackground(new java.awt.Color(255, 51, 0));
+        btn2.setBackground(new java.awt.Color(0, 0, 102));
         btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setText("View Inventory");

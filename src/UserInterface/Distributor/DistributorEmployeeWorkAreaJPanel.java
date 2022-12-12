@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author akash
  */
 public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -56,6 +56,7 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         btn2 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
         lbl2 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         jLabel4.setText("jLabel4");
 
@@ -66,7 +67,7 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         workContainer.setBackground(new java.awt.Color(102, 153, 255));
         workContainer.setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(51, 255, 102));
+        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/001.gif"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -76,29 +77,29 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(48, 48, 48)
+                .addGap(69, 69, 69)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 686, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(73, 73, 73)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 397, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(108, Short.MAX_VALUE))
+                .addGap(111, 111, 111)
+                .addComponent(jLabel1)
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         workContainer.add(jPanel1, "card2");
 
         jSplitPane1.setRightComponent(workContainer);
 
-        mainMenu.setBackground(new java.awt.Color(51, 255, 102));
+        mainMenu.setBackground(new java.awt.Color(102, 153, 255));
 
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(0, 0, 0));
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setText("Main Menu:");
 
-        btn1.setBackground(new java.awt.Color(255, 102, 102));
+        btn1.setBackground(new java.awt.Color(0, 0, 102));
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("Manage Warehouse");
@@ -109,7 +110,7 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btn2.setBackground(new java.awt.Color(0, 102, 102));
+        btn2.setBackground(new java.awt.Color(0, 0, 102));
         btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setText("Manufacture Shipped Orders");
@@ -120,7 +121,7 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btn3.setBackground(new java.awt.Color(0, 153, 0));
+        btn3.setBackground(new java.awt.Color(0, 0, 102));
         btn3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn3.setForeground(new java.awt.Color(255, 255, 255));
         btn3.setText("Provider Orders");
@@ -131,9 +132,11 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        lbl2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(0, 0, 0));
+        lbl2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("DISTRIBUTOR");
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/distributor2_150x150.jpg"))); // NOI18N
 
         javax.swing.GroupLayout mainMenuLayout = new javax.swing.GroupLayout(mainMenu);
         mainMenu.setLayout(mainMenuLayout);
@@ -146,36 +149,59 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
                         .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(btn3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btn2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(btn2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(mainMenuLayout.createSequentialGroup()
+                                .addGap(49, 49, 49)
+                                .addComponent(lbl1))))
+                    .addGroup(mainMenuLayout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(lbl2))
                     .addGroup(mainMenuLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(lbl1)))
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainMenuLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(lbl2)
-                .addGap(55, 55, 55))
         );
         mainMenuLayout.setVerticalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuLayout.createSequentialGroup()
-                .addGap(23, 23, 23)
+                .addGap(22, 22, 22)
                 .addComponent(lbl2)
-                .addGap(30, 30, 30)
-                .addComponent(lbl1)
                 .addGap(27, 27, 27)
+                .addComponent(lbl1)
+                .addGap(31, 31, 31)
                 .addComponent(btn1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btn2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btn3)
-                .addContainerGap(369, Short.MAX_VALUE))
+                .addGap(33, 33, 33)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(163, Short.MAX_VALUE))
         );
 
         jSplitPane1.setTopComponent(mainMenu);
 
         add(jSplitPane1, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
+        // TODO add your handling code here:
+        ManageWarehouseJPanel panel = new ManageWarehouseJPanel(workContainer, enterprise, distributorOrg);
+        workContainer.add("ManageWarehouseJPanel", panel);
+        CardLayout layout = (CardLayout)workContainer.getLayout();
+        layout.next(workContainer);
+        
+        
+        
+    }//GEN-LAST:event_btn1ActionPerformed
+
+    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
+        // TODO add your handling code here:
+         ManageOrdersfromManufacturerJPanel panel = new ManageOrdersfromManufacturerJPanel(workContainer, enterprise, distributorOrg);
+        workContainer.add("ManageOrdersfromManufacturerJPanel", panel);
+        CardLayout layout = (CardLayout)workContainer.getLayout();
+        layout.next(workContainer);
+    }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
         // TODO add your handling code here:
@@ -185,29 +211,13 @@ public class DistributorEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         layout.next(workContainer);
     }//GEN-LAST:event_btn3ActionPerformed
 
-    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        // TODO add your handling code here:
-        ManageOrdersfromManufacturerJPanel panel = new ManageOrdersfromManufacturerJPanel(workContainer, enterprise, distributorOrg);
-        workContainer.add("ManageOrdersfromManufacturerJPanel", panel);
-        CardLayout layout = (CardLayout)workContainer.getLayout();
-        layout.next(workContainer);
-    }//GEN-LAST:event_btn2ActionPerformed
-
-    private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-        // TODO add your handling code here:
-        ManageWarehouseJPanel panel = new ManageWarehouseJPanel(workContainer, enterprise, distributorOrg);
-        workContainer.add("ManageWarehouseJPanel", panel);
-        CardLayout layout = (CardLayout)workContainer.getLayout();
-        layout.next(workContainer);
-
-    }//GEN-LAST:event_btn1ActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn1;
     private javax.swing.JButton btn2;
     private javax.swing.JButton btn3;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSplitPane jSplitPane1;

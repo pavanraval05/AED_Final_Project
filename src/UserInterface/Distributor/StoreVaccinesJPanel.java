@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author akash
  */
 public class StoreVaccinesJPanel extends javax.swing.JPanel {
 
@@ -101,20 +101,20 @@ public class StoreVaccinesJPanel extends javax.swing.JPanel {
         bcwarelist = new javax.swing.JComboBox();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
 
-        lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(0, 0, 0));
+        lbl1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Store Vaccines");
 
         lbl2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(0, 0, 0));
+        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Total Amount of Order: ");
 
         txt1.setEnabled(false);
 
-        btn1.setBackground(new java.awt.Color(255, 51, 0));
+        btn1.setBackground(new java.awt.Color(0, 0, 102));
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("Store Vaccine");
@@ -125,10 +125,10 @@ public class StoreVaccinesJPanel extends javax.swing.JPanel {
             }
         });
 
+        btn2.setBackground(new java.awt.Color(0, 0, 102));
         btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/MicrosoftTeams-image (1).png"))); // NOI18N
-        btn2.setText("Back");
         btn2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,7 +137,7 @@ public class StoreVaccinesJPanel extends javax.swing.JPanel {
         });
 
         lbl3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl3.setForeground(new java.awt.Color(0, 0, 0));
+        lbl3.setForeground(new java.awt.Color(255, 255, 255));
         lbl3.setText("Particulars:");
 
         tblorder.setModel(new javax.swing.table.DefaultTableModel(
@@ -160,15 +160,16 @@ public class StoreVaccinesJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblorder);
 
         lbl4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl4.setForeground(new java.awt.Color(0, 0, 0));
+        lbl4.setForeground(new java.awt.Color(255, 255, 255));
         lbl4.setText("Order Number:");
 
         txt2.setEnabled(false);
 
         lbl6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        lbl6.setForeground(new java.awt.Color(0, 0, 0));
+        lbl6.setForeground(new java.awt.Color(255, 255, 255));
         lbl6.setText("Warehouse:");
 
+        bcwarelist.setForeground(new java.awt.Color(0, 0, 102));
         bcwarelist.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/store.jpg"))); // NOI18N
@@ -235,7 +236,7 @@ public class StoreVaccinesJPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn2))
                 .addGap(40, 40, 40))
         );
     }// </editor-fold>//GEN-END:initComponents

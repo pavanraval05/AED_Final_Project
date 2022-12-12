@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author DELL
  */
 public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -54,13 +54,13 @@ public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setDividerLocation(200);
 
-        jPanel1.setBackground(new java.awt.Color(51, 255, 102));
+        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
 
-        lbl1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(51, 51, 51));
+        lbl1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setText("Main Menu");
 
-        btnenterpop.setBackground(new java.awt.Color(255, 51, 51));
+        btnenterpop.setBackground(new java.awt.Color(0, 0, 102));
         btnenterpop.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnenterpop.setForeground(new java.awt.Color(255, 255, 255));
         btnenterpop.setText("Enter State Population");
@@ -70,7 +70,7 @@ public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnapprove.setBackground(new java.awt.Color(255, 102, 102));
+        btnapprove.setBackground(new java.awt.Color(0, 0, 102));
         btnapprove.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnapprove.setForeground(new java.awt.Color(255, 255, 255));
         btnapprove.setText("Order Approvals");
@@ -80,8 +80,8 @@ public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        lbl2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        lbl2.setForeground(new java.awt.Color(51, 51, 51));
+        lbl2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        lbl2.setForeground(new java.awt.Color(255, 255, 255));
         lbl2.setText("Local Health Department");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -113,12 +113,12 @@ public class LHDEmployeeWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(btnenterpop)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnapprove)
-                .addContainerGap(417, Short.MAX_VALUE))
+                .addContainerGap(407, Short.MAX_VALUE))
         );
 
         jSplitPane1.setTopComponent(jPanel1);
 
-        workContainer.setBackground(new java.awt.Color(51, 255, 102));
+        workContainer.setBackground(new java.awt.Color(102, 153, 255));
         workContainer.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(workContainer);
 

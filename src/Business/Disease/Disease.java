@@ -1,15 +1,18 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
+
 package Business.Disease;
 
 import java.util.Date;
 
 /**
  *
- * @author akhileshkavitkar
+ * @author samruddha
  */
+//initializing Disease class with some variables
 public class Disease {
     
     private String diseaseCode;
@@ -45,5 +48,7 @@ public class Disease {
     public String toString() {
         return diseaseCode;
     }
+    
+    
     
 }

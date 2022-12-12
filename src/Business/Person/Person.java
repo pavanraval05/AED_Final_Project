@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author pavan
+ * @author akash
  */
 
 //Initializing Abstract Class Person

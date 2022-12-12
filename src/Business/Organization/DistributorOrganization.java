@@ -1,17 +1,21 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
+
 package Business.Organization;
 
 import Business.Role.DistributorRole;
 import Business.Role.Role;
 import Business.Warehouse.WarehouseDirectory;
 import java.util.ArrayList;
+
 /**
  *
- * @author samruddhamohire
+ * @author samruddha
  */
+//INitializing our DistributorOrganization that extends our Organization Entity
 public class DistributorOrganization extends Organization{
     
     private WarehouseDirectory warehouseDir;

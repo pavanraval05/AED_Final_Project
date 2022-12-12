@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author samruddhamohire
+ * @author vinithiteshharsora
  */
 public class ViewInventoryJPanel extends javax.swing.JPanel {
 
@@ -89,13 +89,14 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
         jSeparator1 = new javax.swing.JSeparator();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 102));
+        setBackground(new java.awt.Color(102, 153, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("View Inventory");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 690, 40));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, 690, 40));
 
         tbldetails.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -127,11 +128,11 @@ public class ViewInventoryJPanel extends javax.swing.JPanel {
                 brnrefActionPerformed(evt);
             }
         });
-        add(brnref, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 60, -1));
+        add(brnref, new org.netbeans.lib.awtextra.AbsoluteConstraints(771, 20, 120, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 363, 930, 10));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/ICONS/11122021icons/warehouse.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 380, 580, 320));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, 840, 320));
     }// </editor-fold>//GEN-END:initComponents
 
     private void brnrefActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brnrefActionPerformed
