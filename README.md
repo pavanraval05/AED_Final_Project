@@ -1,6 +1,4 @@
-# AED_Final_Project
-
-Vaccine Management System/
+# ✨Vaccine Management System✨
 -----------x--------------/
 
 Akhilesh Kavitkar	002747111/
@@ -11,14 +9,16 @@ Samruddha Mohire	002776884/
 ![Screenshot from 2022-12-11 23-20-56](https://user-images.githubusercontent.com/75246161/206961222-5e8e4b9f-9f21-4321-88f4-904e562ba9d5.png)
 
 
---> Problem Statement : To eradicate the shortage of supply and misuse of vaccines and also to make sure that all the manufactured vaccines are/ 
-                        supplied properly to local health care and everyone in need gets one without any hassle. Also, one of the main uses of this/ 
-                        project is to manage the supply and demand of vaccines. There are manufacturers, providers, distributors , local health care ,/ 
-                        and people involved in the cycle./
+## Problem Statement : 
+                        To eradicate the shortage of supply and misuse of vaccines and also to make sure that all the manufactured vaccines are
+                        supplied properly to local health care and everyone in need gets one without any hassle. Also, one of the main uses of this 
+                        project is to manage the supply and demand of vaccines. There are manufacturers, providers, distributors , local health care,
+                        and people involved in the cycle.
 
---> Solution : Created an application to manage the distribution of vaccines to local health departments and maintain records of the same./
+## Solution : 
+                        Created an application to manage the distribution of vaccines to local health departments and maintain records of the same.
 
---> Key Features : /
+## Key Features : 
 
 1.Maintaining the supply and demand of vaccines throughout the system.<br>
 2.In accordance with vaccine demand, the CDC purchases vaccines from manufacturers and keeps them in distributor warehouses.<br>
